@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.contener{
+	width: 1280px;
+	height: 804px;
+	background-color: antiquewhite;
+	margin: 0 auto;
+	
+}
+.menu{
+	width: 1280px;
+	height: 80px;
+	background-color: rgba(0,0,0,0.8);
+	color: aliceblue;
+	font-size: 20px;
+	margin: 0 auto;
+	
+	 z-index: 10000;
+}
+
+
+ul{
+	list-style: none;
+}
+ul li{
+	float: left;
+	padding: 30px 70px 30px 70px;
+	position: relative;
+}
+ul li a{
+	text-decoration: none;
+	color: rgba(255,255,255,1.00);
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		
+}
+ul li:hover{
+	background-color: bisque;
+}
+ul li ul {
+	position: absolute;
+	left: -40px;
+	background-color: aliceblue;
+	margin: 0px;
+	padding: 0px;
+	visibility: hidden;
+}
+ul li ul li{
+	width: 100px;
+	
+}
+ul li:hover ul{
+	visibility: visible;
+	
+}
+
+
+
+
+.o1{
+	width: 1280px;
+	height: 441px;
+	background-color:aqua;
+	margin: 0 auto;
+}
+.o2{
+	width: 1280px;
+	height: 901px;
+	background-color:azure;
+	margin: 0 auto;
+	
+}
+.o3{
+	width: 1280px;
+	height: 276px;
+	background-color:aliceblue;
+	margin: 0 auto;
+	
+}
+.o3{
+	width: 1280px;
+	height: 553px;
+	background-color:darkblue;
+	margin: 0 auto;
+	
+}
+.o4{
+	width: 1280px;
+	height: 269px;
+	background-color:aliceblue;
+	margin: 0 auto;
+	
+}
+.o5{
+	width: 1280px;
+	height: 249px;
+	background-color:beige;
+	margin: 0 auto;
+	
+}
+.o6{
+	width: 1280px;
+	height: 489px;
+	background-color:aqua;
+	margin: 0 auto;
+	
+
+
+
+}
+
+
+.o7{
+	width: 1280px;
+	height: 316px;
+	background-color:darkblue;
+	margin: 0 auto;
+	
+}
+.hcn{
+	width: 217px;
+	height: 282px;
+	background-color: cornflowerblue;
+	float:left; 
+	margin-left: 20px;
+	margin-top: 80px;
+	position: relative;
+	left: 145px;
+
+}
